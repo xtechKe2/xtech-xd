@@ -13,7 +13,6 @@
   },
   "author": "XTECH_KE",
   "dependencies": {
-    "mrxd-baileys": "file:./mrxd-baileys",
     "@cacheable/node-cache": "^1.4.0",
     "@hapi/boom": "^9.1.4",
     "adm-zip": "^0.5.16",
@@ -21,8 +20,8 @@
     "awesome-phonenumber": "^7.4.0",
     "axios": "^1.6.0",
     "chalk": "^4.1.2",
-    "cheerio": "^1.1.0",
     "check-disk-space": "^3.3.1",
+    "cheerio": "^1.1.0",
     "dotenv": "^16.5.0",
     "express": "^4.19.2",
     "form-data": "^4.0.0",
@@ -45,6 +44,7 @@
     "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
+    "javascript-obfuscator": "^5.4.3",
     "nodemon": "^2.0.19"
   }
 }
