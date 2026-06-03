@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://litter.catbox.moe/fuykqj.jpg" width="200" height="200" />
+<img src="https://i.imgur.com/kQoubLV.jpeg" width="200" height="200" />
 
 # ◥█▓▒░ 𝙓𝙩𝙚𝙘𝙝 𝙓𝙙 ∞ 𝙑𝙄𝙋 ░▒▓█◤
 
