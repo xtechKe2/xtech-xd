@@ -13,6 +13,7 @@
   },
   "author": "XTECH_KE",
   "dependencies": {
+    "mrxd-baileys": "file:./mrxd-baileys",
     "@cacheable/node-cache": "^1.4.0",
     "@hapi/boom": "^9.1.4",
     "adm-zip": "^0.5.16",
