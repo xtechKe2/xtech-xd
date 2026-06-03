@@ -1,0 +1,25 @@
+{
+  "name": "XTECH-XD",
+  "description": "XTECH-XD WhatsApp Bot",
+  "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
+  "keywords": ["whatsapp", "bot"],
+  "repository": "https://github.com/xtechKe2/xtech-xd",
+  "stack": "container",
+  "addons": [
+    { "plan": "heroku-postgresql" }
+  ],
+  "scripts": { "start": "node index.js" },
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with 'xtech-md2026;' or 'XTECH-KE:'",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+    { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
+  ]
+}
